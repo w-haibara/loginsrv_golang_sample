@@ -36,4 +36,4 @@ $ docker run -itd \
   --name h2o-loginsrv h2o-loginsrv
 ```
 
-Web app: http://<your domain>/sample
+Web app: http://\<your domain\>/sample
