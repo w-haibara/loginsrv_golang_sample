@@ -1,5 +1,10 @@
 # loginsrv_golang_sample
 
+## Attention
+This sample use the flag `-cookie-secure=false`. If you use this for public network, setup HTTPS and remove the flag.
+
+## Usage
+
 ```
 # genelate JWT secret key
 $ openssl rand -base64 172 | tr -d '\n' > secret.key
